@@ -39,7 +39,7 @@ Currently, two official plugins are available:
 <li> <strong>Captura e direcionamento de informações:</strong> O Formcarry coleta os dados do cliente e os envia automaticamente para o prestador de serviço, otimizando o processo de atendimento. </li>
 
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=TEMPLATE&FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 
 # Índice 
