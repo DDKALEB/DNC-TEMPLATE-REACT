@@ -1,0 +1,85 @@
+  header{
+    background: #BBBBBB;
+    padding: 20px 0;
+  }
+  .menu{
+    position: relative;
+    width:500px;
+    margin: 0 auto;
+    left: 150px;
+    
+  }
+  nav {
+    position: absolute;
+    top:10px;
+    right: 0;
+  }
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+  }
+  nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .texto {
+    position: absolute;
+    top: 228px;
+    left: 163px;
+    width: 506px;
+  }
+  .bold-text {
+    font-size: 24px; /* Tamanho maior */
+    font-weight: bold; /* Negrito */
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px; /* Aumenta o espaçamento entre as linhas */
+  }
+  .botao {
+    width: 208px;
+    height: 47px;
+    position: absolute;
+    top: calc(228px + 105px + 20px); /* Posição vertical ajustada abaixo do texto */
+    left: calc(163px + 253px); /* Centraliza horizontalmente */
+    transform: translateX(-50%);
+    border-radius: 2px;
+    background: rgba(255, 100, 100, 1);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 47px;
+    cursor: pointer;
+  }
+  .titulo-blog {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 20px;
+    left: 260px;
+    font-weight: normal;
+  }
+  .container-colunas {
+    background-color:  rgba(237, 247, 250);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+    top: calc(228px + 105px + 20px + 47px + 20px); /* Ajuste conforme necessário */
+    left: 0;
+    width: 100%;
+  }
+  .coluna {
+    width: 418px;
+    height: 295px;
+    border-radius: 4px;
+    margin: 0 10px;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    background-color:  rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    
+  }
